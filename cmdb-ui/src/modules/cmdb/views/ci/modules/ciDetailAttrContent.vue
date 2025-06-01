@@ -5,7 +5,7 @@
         <a
           v-for="(ciId) in (attr.is_list ? ci[attr.name] : [ci[attr.name]])"
           :key="ciId"
-          :href="`/cmdb/cidetail/${attr.reference_type_id}/${ciId}`"
+          :href="`/spic-cmdb/cidetail/${attr.reference_type_id}/${ciId}`"
           target="_blank"
         >
           {{ attr.referenceShowAttrNameMap ? attr.referenceShowAttrNameMap[ciId] || ciId : ciId }}

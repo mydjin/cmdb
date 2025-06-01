@@ -767,7 +767,7 @@ export default {
             }
             that.$message.success(that.$t('cmdb.preference.cancelSubSuccess'))
             that.resetRoute()
-            that.$router.push('/cmdb/preference')
+            that.$router.push('/spic-cmdb/preference')
           })
         },
       })

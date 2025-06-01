@@ -518,7 +518,7 @@ export default {
       }, 500)
     },
     shareCi() {
-      const text = `${document.location.host}/cmdb/cidetail/${this.typeId}/${this.ciId}`
+      const text = `${document.location.host}/spic-cmdb/cidetail/${this.typeId}/${this.ciId}`
       this.$copyText(text)
         .then(() => {
           this.$message.success(this.$t('copySuccess'))

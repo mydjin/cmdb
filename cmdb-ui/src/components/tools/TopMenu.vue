@@ -81,9 +81,9 @@ export default {
           const preference = await getPreference()
           const lastTypeId = window.localStorage.getItem('ops_ci_typeid') || undefined
           if (lastTypeId && preference.type_ids.some((item) => item === Number(lastTypeId))) {
-            this.$router.push(`/cmdb/instances/types/${lastTypeId}`)
+            this.$router.push(`/spic-cmdb/instances/types/${lastTypeId}`)
           } else {
-            this.$router.push('/cmdb/dashboard')
+            this.$router.push('/spic-cmdb/dashboard')
           }
         } else {
           this.$router.push(route.redirect)

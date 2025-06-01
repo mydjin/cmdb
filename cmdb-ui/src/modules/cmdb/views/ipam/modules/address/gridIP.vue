@@ -80,7 +80,7 @@
                 <a
                   v-for="(ciId) in (col.is_list ? infoCardData[col.field] : [infoCardData[col.field]])"
                   :key="ciId"
-                  :href="`/cmdb/cidetail/${col.reference_type_id}/${ciId}`"
+                  :href="`/spic-cmdb/cidetail/${col.reference_type_id}/${ciId}`"
                   target="_blank"
                 >
                   {{ getReferenceAttrValue(ciId, col) }}

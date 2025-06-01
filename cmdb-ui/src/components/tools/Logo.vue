@@ -39,8 +39,8 @@ export default {
   },
   methods: {
     jumpTo() {
-      if (this.$route.path !== '/cmdb/dashboard') {
-        this.$router.push('/cmdb/dashboard')
+      if (this.$route.path !== '/spic-cmdb/dashboard') {
+        this.$router.push('/spic-cmdb/dashboard')
       }
     },
   },

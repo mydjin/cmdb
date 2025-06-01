@@ -79,7 +79,7 @@
     }"
     :style="{ paddingTop: '10%' }"
   >
-    <img slot="image" :src="require('@/modules/cmdb/assets/itsm_uninstalled.png')" />
+    <img slot="image" :src="require('@/modules/spic-cmdb/assets/itsm_uninstalled.png')" />
     <span slot="description"> {{ $t('cmdb.history.itsmUninstalled') }} </span>
     <a-button href="https://veops.cn/apply" target="_blank" type="primary">
       {{ $t('cmdb.history.applyItsm') }}

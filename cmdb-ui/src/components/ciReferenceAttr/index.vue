@@ -37,7 +37,7 @@
 <script>
 import _ from 'lodash'
 import debounce from 'lodash/debounce'
-import { searchCI, getCIType } from '@/api/cmdb'
+import { searchCI, getCIType } from '@/api/spic-cmdb'
 
 export default {
   name: 'CIReferenceAttr',

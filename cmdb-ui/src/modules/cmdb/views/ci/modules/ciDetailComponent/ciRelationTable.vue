@@ -64,7 +64,7 @@
               <a
                 v-for="(id) in (column.params.attr.is_list ? row[column.field] : [row[column.field]])"
                 :key="id"
-                :href="`/cmdb/cidetail/${column.params.attr.reference_type_id}/${id}`"
+                :href="`/spic-cmdb/cidetail/${column.params.attr.reference_type_id}/${id}`"
                 target="_blank"
               >
                 {{ getReferenceName(id, column) }}
